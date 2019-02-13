@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tokei_A" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokei-m" translatesAutoresizingMaskIntoConstraints="NO" id="bcW-gk-laA">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="KFj-Un-9Oj"/>
+                                    <constraint firstAttribute="width" constant="300" id="xeq-yD-W01"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokei-h" translatesAutoresizingMaskIntoConstraints="NO" id="1Nj-0G-pmk">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="aWz-nV-nLt"/>
+                                    <constraint firstAttribute="width" constant="300" id="j6A-aw-3cM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokei-s" translatesAutoresizingMaskIntoConstraints="NO" id="UWu-tA-C4b">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="9sA-1S-zxm"/>
+                                    <constraint firstAttribute="width" constant="300" id="gTT-jq-WtY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Nj-0G-pmk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4TN-np-qpR"/>
+                            <constraint firstItem="bcW-gk-laA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bYF-a4-8T5"/>
+                            <constraint firstItem="bcW-gk-laA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jFj-fj-RZL"/>
+                            <constraint firstItem="UWu-tA-C4b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nGs-UW-J6R"/>
+                            <constraint firstItem="1Nj-0G-pmk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pyr-HP-9q8"/>
+                            <constraint firstItem="UWu-tA-C4b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vtu-cX-HE5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgH" destination="1Nj-0G-pmk" id="Scc-sR-IVQ"/>
+                        <outlet property="imgM" destination="bcW-gk-laA" id="yyo-3R-DuF"/>
+                        <outlet property="imgS" destination="UWu-tA-C4b" id="7ad-DW-elx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tokei-h" width="76.800003051757812" height="76.800003051757812"/>
+        <image name="tokei-m" width="76.800003051757812" height="76.800003051757812"/>
+        <image name="tokei-s" width="76.800003051757812" height="76.800003051757812"/>
+    </resources>
+</document>
