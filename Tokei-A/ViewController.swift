@@ -1,11 +1,5 @@
+//アナログ時計のサンプルApp
 //
-//  ViewController.swift
-//  Tokei-A
-//
-//  Created by goemon12 on 2019/02/12.
-//  Copyright © 2019 goemon12. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
